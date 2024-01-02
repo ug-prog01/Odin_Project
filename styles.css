@@ -1,0 +1,91 @@
+body {
+	text-align: center;
+	height: 100%;
+	margin: 0%;
+	color: ;
+}
+
+div.blue {
+	color: blue;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+}
+
+img.logo {
+	width: 50px;
+	height: 50px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.hero-text {
+	font-size: 48px;
+	margin: 10px;
+}
+
+p {
+	font-size: 18px;
+	/* padding: 0%; */
+	margin: 4px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	background-color: #E5E7EB;
+	border-radius: 4px;
+	padding: 4px;
+	margin: 4px;
+	font-size: 20px;
+}
+
+button {
+	background-color: #3882F6;
+	border-radius: 4px;
+	margin: 4px;
+}
+
+
+.header {
+	padding: 12px;
+	background-color: #1F2937;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.info {
+	background-color: #1F2937;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.cards-header {
+	background-color: white;
+	color: #1F2937;
+	font-weight: 400;
+	font-size: 36px;
+}
+
+.cards {
+	background-color:white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	gap: 30px;
+}
+
+.footer {
+	background-color: #1F2937;
+}
