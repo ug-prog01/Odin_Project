@@ -2,7 +2,8 @@ body {
 	text-align: center;
 	height: 100%;
 	margin: 0%;
-	color: ;
+	font-family: 'Roboto';
+	color: #1F2937;
 }
 
 div.blue {
@@ -26,21 +27,25 @@ img.logo {
 }
 
 .hero-text {
+	padding: 4px;
 	font-size: 48px;
-	margin: 10px;
+	color: #F9FAF8;
+}
+
+.description {
+	padding: 4px;
+	font-size: 18px;
+	color: #E5E7EB;
 }
 
 p {
 	font-size: 18px;
-	/* padding: 0%; */
 	margin: 4px;
 }
 
 a {
 	text-decoration: none;
-	color: black;
-	background-color: #E5E7EB;
-	border-radius: 4px;
+	color: #E5E7EB;
 	padding: 4px;
 	margin: 4px;
 	font-size: 20px;
@@ -49,9 +54,19 @@ a {
 button {
 	background-color: #3882F6;
 	border-radius: 4px;
+	padding: 4px;
 	margin: 4px;
+	color: #E5E7EB;
+	border: #3882F6;
 }
 
+button:hover {
+	cursor: pointer;
+}
+
+.header-links {
+	text-align: right;
+}
 
 .header {
 	padding: 12px;
@@ -64,8 +79,9 @@ button {
 .info {
 	background-color: #1F2937;
 	display: flex;
+	text-align: left;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
@@ -73,7 +89,7 @@ button {
 .cards-header {
 	background-color: white;
 	color: #1F2937;
-	font-weight: 400;
+	font-weight: 800;
 	font-size: 36px;
 }
 
@@ -86,6 +102,53 @@ button {
 	gap: 30px;
 }
 
+.card-image {
+	border-style: solid;
+	border-color: #3882F6;
+}
+
+.quote {
+	background-color: #E5E7EB;
+	font-style: italic;
+	font-size: 36px;
+	padding: 100px;
+	font-weight: 200;
+}
+
+.author {
+	padding: 10px;
+	text-align: right;
+	font-style: normal;
+	color: #1F2937;
+	font-weight:bold;
+	font-size: 24px;
+}
+
+.feedback {
+	margin: 100px;
+	background-color: #3882F6;
+	display: flex;
+	padding: 20px;
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 10px;
+}
+
+.feedback-button {
+	background-color: #3882F6;
+	font-size: 26px;
+	border-radius: 14px;
+	padding: 14px;
+	margin: 4px;
+	color: #E5E7EB;
+	border: #3882F6;
+	border-style: solid;
+	border-color: #E5E7EB;
+}
+
 .footer {
+	align-items: center;
 	background-color: #1F2937;
+	color: #F9FAF8;
+	padding: 10px;
 }
